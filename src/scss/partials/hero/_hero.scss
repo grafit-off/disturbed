@@ -1,0 +1,60 @@
+.hero {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1c1b21 92.19%), url("../img/hero-bg.jpeg") center/cover no-repeat;
+
+	&__container {
+		padding-top: 420px;
+		@media (max-width: $md2) {
+			padding-top: 210px;
+		}
+	}
+
+	&__heading {
+	}
+
+	&__list {
+		display: flex;
+		@media (max-width: $md3) {
+			flex-direction: column;
+		}
+	}
+
+	&__item {
+		flex: 0 0 calc(33.33% - 20px);
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+		@media (max-width: $md2) {
+			flex: 0 0 calc(33.33% - 10px);
+			&:not(:last-child) {
+				margin-right: 15px;
+			}
+		}
+		@media (max-width: $md3) {
+			flex: 0 0 auto;
+			&:not(:last-child) {
+				margin-right: 0;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+.song {
+	display: block;
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	font-weight: 700;
+	font-size: 100px;
+	color: var(--color-bg);
+
+	-webkit-text-stroke: 1px #fff;
+	@media (max-width: $md3) {
+		font-size: 60px;
+		margin-top: 25px;
+	}
+	@media (max-width: $md4) {
+		font-size: 40px;
+	}
+}

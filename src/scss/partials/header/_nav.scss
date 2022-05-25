@@ -1,0 +1,58 @@
+.nav {
+	@media (max-width: $md2) {
+		z-index: 100;
+
+		width: 100vw;
+		height: 100vh;
+
+		padding: 40px;
+
+		background-color: var(--color-accent);
+		transition: transform 0.3s ease;
+
+		transform: translateX(100%);
+
+		&--active {
+			transition: transform 0.3s ease;
+			transform: translateX(0);
+		}
+	}
+	&__list {
+		display: flex;
+		@media (max-width: $md2) {
+			flex-direction: column;
+			justify-content: center;
+
+			text-align: center;
+		}
+	}
+
+	&__item {
+		&:not(:last-child) {
+			margin-right: 55px;
+			@media (max-width: $md2) {
+				margin-right: 0;
+				margin-bottom: 50px;
+			}
+		}
+	}
+
+	&__link {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 27px;
+
+		transition: color 0.3s ease;
+		@media (max-width: $md2) {
+			text-align: center;
+			font-size: 32px;
+		}
+
+		@media (any-hover: hover) {
+			&:hover {
+				color: var(--color-accent);
+				transition: color 0.3s ease;
+			}
+		}
+	}
+}

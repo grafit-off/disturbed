@@ -1,23 +1,17 @@
 :root {
-	--color-bg: #fff;
-	--color-font: #000;
+	--color-bg: #1c1b21;
+	--color-font: #fff;
+	--color-accent: #7A66CC;
 }
-
-/* .light-theme {
-	--color-bg: #fff;
-}
-.dark-theme {
-	--color-bg: #191919;
-} */
 
 $fz-text: 18px;
-$fz-heading: 64px;
+$fz-heading: 48px;
 
-$ff: "FuturaPT", sans-serif;
+$ff: "Poppins", sans-serif;
 
 $minWidth: 320;
 $maxWidth: 1920px; // Разрешение макета
-$maxWidthContainer: 1492px; // Разрешение контейнера
+$maxWidthContainer: 1110px; // Разрешение контейнера
 
 $md1: $maxWidthContainer + 15px; //desktop
 $md2: 991.98px; // Tablet

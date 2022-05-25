@@ -1,0 +1,36 @@
+.header {
+	position: absolute;
+	width: 100%;
+
+	&__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		padding-top: 40px;
+		padding-bottom: 40px;
+		@media (max-width: $md2) {
+			justify-content: space-between;
+		}
+	}
+
+	&__logo {
+		margin-right: 65px;
+
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	&__nav {
+		@media (max-width: $md2) {
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: 100;
+			overflow: auto;
+		}
+	}
+
+	&__burger {
+	}
+}

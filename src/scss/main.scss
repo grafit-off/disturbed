@@ -19,9 +19,12 @@
 //* Sections
 //? Header
 @import "partials/header/_header.scss";
+@import "partials/header/_nav.scss";
+@import "partials/header/_burger.scss";
 
 //? Hero
 @import "partials/hero/_hero.scss";
+@import "partials/hero/_hero-item.scss";
 
 //? Footer
 @import "partials/footer/_footer.scss";
@@ -30,5 +33,6 @@
 //* Components
 @import "partials/common/_main-heading.scss";
 @import "partials/common/_main-text.scss";
+@import "partials/player/_player.scss";
 //* -- //
 // -- //

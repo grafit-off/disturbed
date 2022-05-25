@@ -1,7 +1,8 @@
 .main-text {
 	font-weight: 400;
 	font-size: $fz-text;
-	line-height: 1.1;
+	line-height: 27px;
+
 	@media (max-width: $md2) {
 		font-size: 16px;
 	}

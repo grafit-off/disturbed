@@ -11,65 +11,28 @@
 	<meta name="format-detection" content='telephone=no' />
 	<meta name="format-detection" content='address=no' />
 
-	<meta name="theme-color" content='#ffffff' />
+	<meta name="theme-color" content='#1c1b21' />
 
 	<!-- SEO META Краткое описание, ключевые слова -->
-	<meta name="description" content="description" />
-	<meta name="keywords" content="keywords" />
-	<!-- Ссылка на сайт -->
+	<link rel="canonical" href="https://grafit-off.github.io/disturbed/build/">
+	<meta name="robots" content="index, follow">
+	<link rel="shortlink" href="https://grafit-off.github.io/disturbed/build/">
+	<meta name="description" content="The official Disturbed website">
+	<meta name="keywords"
+		content="Disturbed, David Draiman, Dan Donegan, Mike Wengren, Jon Moyer, Evolution, Are You Ready, Rock, Metal, Heavy Metal, Sound of Silence, New Album, New Music, Tour, Merch, Tour Dates, Preorder, Pre-order">
+	<meta property="og:site_name" content="Disturbed">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://grafit-off.github.io/disturbed/build/">
+	<meta property="og:title" content="Disturbed | Official Website">
+	<meta property="og:description" content="The official Disturbed website">
+	<meta property="og:image"
+		content="https://www.disturbed1.com/sites/g/files/g2000013371/files/2021-12/Disturbed-FBOG_0.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:description" content="The official Disturbed website">
+	<meta name="twitter:title" content="Disturbed | Official Website">
+	<meta name="twitter:image"
+		content="https://www.disturbed1.com/sites/g/files/g2000013371/files/2021-12/Disturbed-FBOG_0.jpg">
 
-	<!--  Индексирование странички
-		<meta name="robots" content="" />
-		Полный запрет - content="noindex, nofollow" или content="none"
-		Запрет индексации картинок и ссылок content="noimage, nofollow"
-		
-		Информация
-		<meta name="Author" content="-" />
-		<meta name="Copyright" content="-" />
-		<meta name="Address" content="-" />
-	
-		Редирект | перенаправление
-		<meta http-equiv='refresh' content='0;url=' /> *0 - время перед началом переадресации в секундах, url - ссылка куда переадресовывать
-	
-	
-		Информации о странице, которая будет выводится в записи социальной сети при репосте сайта (Open Graph)
-			Локализация сайта
-		<meta property="og:locale" content="ru_RU" />
-	
-		Тип контента
-		<meta property="og:type" content="article" />
-	
-		Название сайта 
-		<meta property="og:site_name" content=""/>
-	
-	Заголовок страницы
-		<meta property="og:title" content=""/>
-	
-	Описание страницы 
-		<meta property="og:description" content=""/>
-	
-	Ссылка на текущую страницу
-		<meta property="og:url" content=""/>
-	
-	Изображение
-		<meta property="og:image" content=""/>  *вставить ссылку в content
-	
-	
-		Twitter Cards
-		<meta name="twitter:card" content="summary">
-	
-		Имя/логин автора 
-		<meta name="twitter:site" content="Имя">
-	
-		Название страницы 
-		<meta name="twitter:title" content="META теги">
-	
-		Описание страницы 
-		<meta name="twitter:description" content="про META теги">
-	
-		Cсылка на изображение
-		<meta name="twitter:image" content=""> *вставить ссылку в content	
-	-->
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="resources/favicons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="resources/favicons/apple-icon-60x60.png">
@@ -90,37 +53,98 @@
 	<meta name="theme-color" content="#ffffff">
 	<!--  -->
 
-	<link rel="preload" href="fonts/FuturaPT-Bold.woff2" as="font" type="font/woff2" crossorigin />
-	<link rel="preload" href="fonts/FuturaPT-Medium.woff2" as="font" type="font/woff2" crossorigin />
-	<link rel="preload" href="fonts/FuturaPT-Book.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="fonts/Poppins-Bold.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="fonts/Poppins-Medium.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin />
+	<link rel="preload" href="fonts/Poppins-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
 
+	<link rel="stylesheet" href="resources/libs/openplayer.min.css" />
 	<!-- <link rel="stylesheet" href="resources/libs/swiper-bundle.min.css" /> -->
 	<link rel="stylesheet" href="css/main.min.css" />
-	<title>App Title</title>
+	<title>Disturbed | Official Website</title>
 </head>
 
 <body class="body">
 	<header class="header fixed-padding" id="header">
 	<div class="header__container container">
-		HEADER
+		<a class="header__logo link-reset">
+			DISTURBed
+		</a>
+		<nav class="header__nav nav">
+			<ul class="nav__list list-reset">
+				<li class="nav__item">
+					<a href="#" class="nav__link link-reset">About</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link link-reset">News</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link link-reset">Music</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link link-reset">Media</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link link-reset">Tours</a>
+				</li>
+				<li class="nav__item">
+					<a href="#" class="nav__link link-reset">Contacts</a>
+				</li>
+			</ul>
+		</nav>
+		<button class="header__burger btn-reset burger" aria-label="Open navigation menu" aria-hidden="true">
+			<span class="burger__middle-line"></span>
+		</button>
 	</div>
 </header>
 	<main class="main-content">
 		<section class="hero" id="hero">
 	<div class="hero__container container">
-		HERO
-		<h1 class="hero__heading">I'm heading into HERO section! </h1>
+		<h1 class="hero__heading main-heading text-reset">
+			New Single
+			<span class="song">Warrior</span>
+		</h1>
+
+		<audio id="audio-hero" class="op-player__media" controls playsinline>
+			<source src="resources/audio/Disturbed-Warrior.mp3" type="audio/mpeg">
+			The audio tag is not supported by your browser.
+			<a href="resources/audio/Disturbed-Warrior.mp3" download>Download a song</a>.
+		</audio>
+
+		<ul class="hero__list list-reset">
+			<li class="hero__item hero-item">
+				<img src="img/hero-1.webp" alt="Member of music band Disturbed" class="hero-item__image">
+				<p class="hero-item__text text-reset">
+					Disturbed are headlining Musikfest in Bethlehem, PA on August 10.
+				</p>
+				<a href="#" class="hero-item__link link-reset" aria-label="About upcoming album"></a>
+			</li>
+			<li class="hero__item hero-item">
+				<img src="img/hero-2.jpg" alt="Member of music band Disturbed" class="hero-item__image">
+				<p class="hero-item__text text-reset">
+					Disturbed are performing at Blue Ridge Rock Festival in Alton, VA, September 8-11.
+				</p>
+				<a href="#" class="hero-item__link link-reset" aria-label="About upcoming album"></a>
+			</li>
+			<li class="hero__item hero-item">
+				<img src="img/hero-3.webp" alt="Member of music band Disturbed" class="hero-item__image">
+				<p class="hero-item__text text-reset">
+					Disturbed are headlining Summerfest in Milwaukee, WI on June 30.
+				</p>
+				<a href="#" class="hero-item__link link-reset" aria-label="About upcoming album"></a>
+			</li>
+		</ul>
+
+
 	</div>
 </section>
 	</main>
-	<footer class="footer">
-	<div class="footer__container container">
-		FOOTER
-	</div>
-</footer>
+	
 	
 
 	<!-- <script src="resources/libs/swiper-bundle.min.js"></script> -->
+	<script src="resources/libs/openplayer.min.js"></script>
+
 	<script src="js/main.js"></script>
 </body>
 
