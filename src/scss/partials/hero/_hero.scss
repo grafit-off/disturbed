@@ -3,8 +3,10 @@
 
 	&__container {
 		padding-top: 420px;
+		padding-bottom: 80px;
 		@media (max-width: $md2) {
 			padding-top: 210px;
+			padding-bottom: 40px;
 		}
 	}
 
